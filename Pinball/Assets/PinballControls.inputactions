@@ -1,0 +1,54 @@
+{
+    "name": "PinballControls",
+    "maps": [
+        {
+            "name": "Flipper",
+            "id": "958416fc-5ec7-489c-9d97-bff7e8414841",
+            "actions": [
+                {
+                    "name": "RightFlipper",
+                    "type": "PassThrough",
+                    "id": "f9b88ac8-0b60-44be-b2cc-a5c5ac0d407a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftFlipper",
+                    "type": "Value",
+                    "id": "7a9dbde2-9552-4ea2-824e-efd1538e4062",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "984b1d8c-1edc-4b47-8d87-1776c62132bf",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightFlipper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af4e254f-f6dd-49b7-80a7-ec0eb6397a8a",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftFlipper",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
